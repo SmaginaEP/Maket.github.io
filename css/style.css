@@ -50,4 +50,17 @@
         font-weight: normal;
         text-rendering: optimizeLegibility;
     }
+    /* Webfont: Font Awesome 5 Free*/
+    @font-face {
+        font-family: "Font Awesome 5 Free";
+        font-style: normal;
+        font-weight: 900;
+        src: local(''), url('../fonts/Font Awesome 5 Free Regular/Font Awesome 5 Free Regular.woff') format("woff"), 
+        url('../fonts/Font Awesome 5 Free Regular/Font Awesome 5 Free Regular.ttf') format("truetype");
+    }
+    .item{
+             width:200px;
+             height:300px;
+             background-color:aqua;
+         }
 }
